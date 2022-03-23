@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // alert("hellow");
+     0
+        function init() {
+            // document.getElementById("id_h2").innerHTML = "dom 33";
+            document.querySelector("#id_h2").innerHTML = "dom 44";
+            document.querySelector("#id_h2").style.background = "yellow";
+       
+           changhImage();
+            // document.getElementById("id_h2").style.color = "red ";
+        }
+function changhImage() {
+    document.querySelector("#id_img").src  = " imges/flag.france.png ";
+            document.querySelector("#id_img").width = "500";
+}
+
+    </script>   
+</head>
+<body onload="init()">
+    <h1>dom rules</h1>
+<h2 id="id_h2">  ---</h2>
+<img id="id_img" src="imges/flag.brazil.jpg" width="100" alt="movie">
+
+</body>
+</html>
